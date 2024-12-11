@@ -19,7 +19,7 @@
         <mxCell id="Qo5oytNORhlPNxn21TGo-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ATMSystem&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ manager : Manager&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;accounts: List&amp;lt;Account&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;main(String[] args): void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="230" y="-640" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Qo5oytNORhlPNxn21TGo-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qo5oytNORhlPNxn21TGo-2" target="Qo5oytNORhlPNxn21TGo-1">
+        <mxCell id="Qo5oytNORhlPNxn21TGo-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.631;exitY=0.996;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="PssCYm4mv6PHotVM2z-Q-2" target="Qo5oytNORhlPNxn21TGo-1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-50" y="-620" as="sourcePoint" />
             <mxPoint x="130" y="-700" as="targetPoint" />
