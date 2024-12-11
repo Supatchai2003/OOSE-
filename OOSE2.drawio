@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="หน้า-1" id="EBqGZt-KyOaUBUIel9uA">
-    <mxGraphModel dx="2048" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1545" dy="1553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,15 +14,15 @@
           <mxGeometry x="-290" y="-754" width="280" height="170" as="geometry" />
         </mxCell>
         <mxCell id="Qo5oytNORhlPNxn21TGo-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ATMAction&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;checkBalance() : Void&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin: 0px 0px 0px 4px;&quot;&gt;+ withdraw (double amount) : Void&lt;/p&gt;&lt;p style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin: 0px 0px 0px 4px;&quot;&gt;+ deposit(double amount) : Void&lt;/p&gt;&lt;p style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin: 0px 0px 0px 4px;&quot;&gt;+ transfer (Account target , double amount) : Void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="-520" width="270" height="120" as="geometry" />
+          <mxGeometry x="-60" y="-490" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Qo5oytNORhlPNxn21TGo-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ATMSystem&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ manager : Manager&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;accounts: List&amp;lt;Account&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;main(String[] args): void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="230" y="-640" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Qo5oytNORhlPNxn21TGo-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.631;exitY=0.996;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="PssCYm4mv6PHotVM2z-Q-2" target="Qo5oytNORhlPNxn21TGo-1">
+        <mxCell id="Qo5oytNORhlPNxn21TGo-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.631;exitY=0.996;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-50" y="-620" as="sourcePoint" />
-            <mxPoint x="130" y="-700" as="targetPoint" />
+            <mxPoint x="-118.31999999999994" y="-584.0000000000001" as="sourcePoint" />
+            <mxPoint x="70" y="-489.32" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qo5oytNORhlPNxn21TGo-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.015;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PssCYm4mv6PHotVM2z-Q-1" target="pj323ngQMiUE99nlOLwV-1">
@@ -31,7 +31,7 @@
             <mxPoint x="350" y="-770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qo5oytNORhlPNxn21TGo-5" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Qo5oytNORhlPNxn21TGo-4">
+        <mxCell id="Qo5oytNORhlPNxn21TGo-5" value="extends" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Qo5oytNORhlPNxn21TGo-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qo5oytNORhlPNxn21TGo-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.343;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PssCYm4mv6PHotVM2z-Q-2" target="pj323ngQMiUE99nlOLwV-1">
@@ -40,7 +40,7 @@
             <mxPoint x="170" y="-620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qo5oytNORhlPNxn21TGo-7" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Qo5oytNORhlPNxn21TGo-6">
+        <mxCell id="Qo5oytNORhlPNxn21TGo-7" value="extends" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Qo5oytNORhlPNxn21TGo-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qo5oytNORhlPNxn21TGo-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.006;entryY=0.708;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.021;exitY=0.348;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Qo5oytNORhlPNxn21TGo-2" target="PssCYm4mv6PHotVM2z-Q-2">
@@ -49,9 +49,9 @@
             <mxPoint x="180" y="-600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qo5oytNORhlPNxn21TGo-9" value="*" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Qo5oytNORhlPNxn21TGo-8">
+        <mxCell id="Qo5oytNORhlPNxn21TGo-9" value="*" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=22;" connectable="0" vertex="1" parent="Qo5oytNORhlPNxn21TGo-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-93" y="-19" as="offset" />
+            <mxPoint x="-98" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qo5oytNORhlPNxn21TGo-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.383;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="PssCYm4mv6PHotVM2z-Q-1">
@@ -60,13 +60,11 @@
             <mxPoint x="490" y="-640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qo5oytNORhlPNxn21TGo-11" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Qo5oytNORhlPNxn21TGo-10">
+        <mxCell id="Qo5oytNORhlPNxn21TGo-11" value="manager" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Qo5oytNORhlPNxn21TGo-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qo5oytNORhlPNxn21TGo-12" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qo5oytNORhlPNxn21TGo-10">
-          <mxGeometry x="-0.0139" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="Qo5oytNORhlPNxn21TGo-13" value="implements" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="-569.32" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
