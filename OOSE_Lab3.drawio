@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="หน้า-1" id="WD2QL5US_MFfZTGHRSg6">
+    <mxGraphModel dx="1050" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Gi9SJCjBN-Mf_EN90ED-2" value="ATM RMUTT" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="760" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="5Gi9SJCjBN-Mf_EN90ED-5" value="checkBalance" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="5Gi9SJCjBN-Mf_EN90ED-2">
+          <mxGeometry x="46" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Gi9SJCjBN-Mf_EN90ED-6" value="withdraw" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="5Gi9SJCjBN-Mf_EN90ED-2">
+          <mxGeometry x="46" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Gi9SJCjBN-Mf_EN90ED-7" value="deposit" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="5Gi9SJCjBN-Mf_EN90ED-2">
+          <mxGeometry x="46" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Gi9SJCjBN-Mf_EN90ED-8" value="transfer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="5Gi9SJCjBN-Mf_EN90ED-2">
+          <mxGeometry x="46" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Gi9SJCjBN-Mf_EN90ED-9" value="login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="5Gi9SJCjBN-Mf_EN90ED-2">
+          <mxGeometry x="340" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Gi9SJCjBN-Mf_EN90ED-10" value="handle invalid account and password" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="5Gi9SJCjBN-Mf_EN90ED-2">
+          <mxGeometry x="570" y="235" width="184" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5Gi9SJCjBN-Mf_EN90ED-11" value="addAccount" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="5Gi9SJCjBN-Mf_EN90ED-2">
+          <mxGeometry x="56" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Gi9SJCjBN-Mf_EN90ED-13" value="checkAccount" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="5Gi9SJCjBN-Mf_EN90ED-2">
+          <mxGeometry x="56" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Gi9SJCjBN-Mf_EN90ED-17" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="5Gi9SJCjBN-Mf_EN90ED-2" source="5Gi9SJCjBN-Mf_EN90ED-5" target="5Gi9SJCjBN-Mf_EN90ED-9">
+          <mxGeometry x="-0.5819" width="160" relative="1" as="geometry">
+            <mxPoint x="140" y="250" as="sourcePoint" />
+            <mxPoint x="234" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="75" />
+              <mxPoint x="310" y="255" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Gi9SJCjBN-Mf_EN90ED-18" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5Gi9SJCjBN-Mf_EN90ED-2" source="5Gi9SJCjBN-Mf_EN90ED-6" target="5Gi9SJCjBN-Mf_EN90ED-9">
+          <mxGeometry x="-0.4933" width="160" relative="1" as="geometry">
+            <mxPoint x="234" y="280" as="sourcePoint" />
+            <mxPoint x="340" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="115" />
+              <mxPoint x="310" y="255" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Gi9SJCjBN-Mf_EN90ED-3" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Gi9SJCjBN-Mf_EN90ED-4" value="Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
