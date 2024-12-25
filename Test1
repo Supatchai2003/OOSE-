@@ -1,0 +1,31 @@
+<mxfile>
+  <diagram name="Withdraw Sequence Diagram">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="User" style="shape=actor" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="40" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="ATM" style="shape=rectangle" vertex="1" parent="1">
+          <mxGeometry x="150" y="50" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Database" style="shape=rectangle" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Interaction Lines -->
+        <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Verify PIN" style="edgeStyle=orthogonalEdgeStyle" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Confirm Withdraw" style="edgeStyle=orthogonalEdgeStyle" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Dispense Cash" style="edgeStyle=orthogonalEdgeStyle" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
