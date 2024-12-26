@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="หน้า-1" id="PzbtHWjbDMWsC_KnwCjL">
-    <mxGraphModel dx="724" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="368" dy="200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,7 +218,7 @@
           <mxGeometry x="181" y="660" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CwJPg5COREhSYCsojFhI-10" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="4" y="730" width="806" height="1250" as="geometry" />
+          <mxGeometry x="4" y="730" width="806" height="1700" as="geometry" />
         </mxCell>
         <mxCell id="CwJPg5COREhSYCsojFhI-11" value="Account" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="75" y="730" width="70" height="30" as="geometry" />
@@ -422,13 +422,178 @@
           <mxGeometry x="330" y="1480" width="20" height="10" as="geometry" />
         </mxCell>
         <mxCell id="CwJPg5COREhSYCsojFhI-68" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1500" width="670" height="260" as="geometry" />
+          <mxGeometry x="90" y="1500" width="670" height="210" as="geometry" />
         </mxCell>
         <mxCell id="CwJPg5COREhSYCsojFhI-69" value="deposit" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="290" y="1520" width="100" height="300" as="geometry" />
+          <mxGeometry x="290" y="1510" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CwJPg5COREhSYCsojFhI-70" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;deposit&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="175" y="1500" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-71" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="335" y="1570" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-72" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="CwJPg5COREhSYCsojFhI-71">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="1590" as="sourcePoint" />
+            <mxPoint x="330" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-73" value="ระบุจำนวนเงิน" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1568" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-74" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="673" y="1570" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-75" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="346" y="1610.0000000000002" as="sourcePoint" />
+            <mxPoint x="674" y="1610.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-76" value="update ยอดเงิน" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1590" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-77" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=-0.3;exitY=0.583;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="673" y="1647.31" as="sourcePoint" />
+            <mxPoint x="348" y="1647.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-78" value="return ยอดเงิน" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1618" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-79" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="335" y="1680.0000000000002" as="sourcePoint" />
+            <mxPoint x="170" y="1680.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-80" value="return &quot;ฝากเงินสำเร็จ&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1660" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-81" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1690" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-82" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1710" width="670" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-83" value="Transfer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1710" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-84" value="Transfer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="290" y="1720" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-85" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="335" y="1800" width="10" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-86" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="CwJPg5COREhSYCsojFhI-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="176" y="1820" as="sourcePoint" />
+            <mxPoint x="336" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-87" value="ระบุบัญชีและจำนวนเงิน" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="181" y="1800" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-88" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="181" y="1830" width="559" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-89" value="พบบัญชี" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1830" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-90" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2020" width="550" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-91" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1870" width="530" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-92" value="ยอดเงินพอ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1870" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-95" value="ทำการโอนเงิน" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1890" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="371" y="1920" />
+            </Array>
+            <mxPoint x="346" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-96" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="673" y="1930" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-97" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="346" y="1950" as="sourcePoint" />
+            <mxPoint x="674" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-98" value="update เงิน" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1928" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-99" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="674" y="1989.66" as="sourcePoint" />
+            <mxPoint x="346" y="1989.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-100" value="return ยอดเงิน" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1968" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-101" value="ยอดเงินไม่พอ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="246" y="2020" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-102" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="445" y="2040" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-103" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="345" y="2069.88" as="sourcePoint" />
+            <mxPoint x="445" y="2069.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-104" value="ยกเลิกรายการ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2048" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-105" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="445" y="2110" as="sourcePoint" />
+            <mxPoint x="345" y="2110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-106" value="return msg" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2090" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-107" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="181" y="2170" width="559" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-108" value="ไม่พบบัญชี" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="2168" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-109" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="445" y="2190" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-110" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="345" y="2219.88" as="sourcePoint" />
+            <mxPoint x="445" y="2219.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-111" value="ยกเลิกรายการ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2198" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-112" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="445" y="2260" as="sourcePoint" />
+            <mxPoint x="345" y="2260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-113" value="return msg" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CwJPg5COREhSYCsojFhI-114" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
+          <mxGeometry x="330" y="2330" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
