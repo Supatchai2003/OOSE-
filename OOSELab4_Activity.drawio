@@ -112,7 +112,7 @@
         <mxCell id="k4Ju-XhTeMjvAxH35-dU-32" value="เช็คจำนวนเงินในบัญชี" style="whiteSpace=wrap;html=1;rounded=1;arcSize=10;" vertex="1" parent="1">
           <mxGeometry x="660" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="k4Ju-XhTeMjvAxH35-dU-34" value="" style="whiteSpace=wrap;html=1;rounded=1;arcSize=10;" vertex="1" parent="1">
+        <mxCell id="k4Ju-XhTeMjvAxH35-dU-34" value="alert&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=10;" vertex="1" parent="1">
           <mxGeometry x="45" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
