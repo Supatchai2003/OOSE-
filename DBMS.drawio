@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="หน้า-1" id="eh4XmbmzgDnAuWuqmpsm">
-    <mxGraphModel dx="2327" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2227" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -439,7 +439,7 @@
         <mxCell id="FMb4IsS57maZO2ft8bvY-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;startFill=0;" parent="1" source="FMb4IsS57maZO2ft8bvY-121" target="FMb4IsS57maZO2ft8bvY-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FMb4IsS57maZO2ft8bvY-121" value="ATM" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="FMb4IsS57maZO2ft8bvY-121" value="รหัสเครื่องATM" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="700" y="1400" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FMb4IsS57maZO2ft8bvY-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" parent="1" source="FMb4IsS57maZO2ft8bvY-122" target="FMb4IsS57maZO2ft8bvY-63" edge="1">
@@ -448,7 +448,7 @@
         <mxCell id="FMb4IsS57maZO2ft8bvY-122" value="รหัสบัญชี" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="580" y="1420" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FMb4IsS57maZO2ft8bvY-123" value="แอปธนาคาร" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="FMb4IsS57maZO2ft8bvY-123" value="รหัสแอปธนาคาร" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="450" y="1400" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FMb4IsS57maZO2ft8bvY-124" value="รหัสสกุลเงิน" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -1000,6 +1000,12 @@
         </mxCell>
         <mxCell id="qs3AyS_cIpWHK2n2SVXH-1" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="20" y="3033" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qs3AyS_cIpWHK2n2SVXH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="qs3AyS_cIpWHK2n2SVXH-2" target="FMb4IsS57maZO2ft8bvY-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qs3AyS_cIpWHK2n2SVXH-2" value="รหัสสกุลเงิน" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1330" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
